@@ -1,4 +1,4 @@
-# portvi(n|m)
+# portvim
 
 Minimalistic nvim config using [`lazy`]() as package manager. Based on the amazing [typecraft](https://www.youtube.com/@typecraft_dev) nvim YT videos.
 
