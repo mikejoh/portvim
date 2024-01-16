@@ -15,3 +15,11 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
 require("vim-options")
+
+local f = require("functions")
+vim.keymap.set('n', '<leader>pp', function() f.replace_pick_with_fixup() end, {
+    noremap = true,
+    silent = true
+})
+
+
