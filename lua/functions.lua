@@ -3,7 +3,7 @@ local f = {}
 -- replace_pick_with_fixup is a utility function to help out during git rebases and when all i want to do
 -- is to do a fixup into one commit.
 f.replace_pick_with_fixup = function()
-  local start_line = 1
+  local start_line = 2
   local end_line = vim.api.nvim_buf_line_count(0)
 
   for line_number = start_line, end_line do
